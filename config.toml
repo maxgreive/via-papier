@@ -1,4 +1,4 @@
-baseURL = "http://viapapier.robbers.eu/"
+baseURL = "https://upbeat-hopper-420566.netlify.com/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "harbor"
