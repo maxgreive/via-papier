@@ -1,38 +1,38 @@
 baseURL = "https://upbeat-hopper-420566.netlify.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Via Papier"
 theme = "harbor"
 author = "Max Greive"
 paginate = 3
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "de"
 enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
 
 [Author]
-  name = "hugo author"
+  name = "Via Papier"
 
 [outputs]
     section = ["JSON", "HTML"]
 
 [[params.nav]]
-  identifier = "about"
-  name = "About"
-  icon = "fas fa-user fa-lg"
-  url = "/about/"
+  identifier = "facebook"
+  name = "fb.me/viapapier"
+  icon = "fab fa-facebook"
+  url = "https://facebook.com/viapapier"
   weight = 3
 
 [[params.nav]]
-  identifier = "tags"
-  name = "Tags"
-  icon = "fas fa-tag fa-lg"
-  url = "tags"
+  identifier = "instagram"
+  name = "instagr.am/viapapier"
+  icon = "fab fa-instagram"
+  url = "https://instagram.com/viapapier"
   weight = 3
 
 [[params.nav]]
-  identifier = "search"
-  name = "Search"
-  icon = "fas fa-search fa-lg"
-  url = "search"
+  identifier = "download"
+  name = "Download"
+  icon = "fas fa-download"
+  url = "#download"
   weight = 3
 
 [params]
@@ -40,7 +40,28 @@ footnoteReturnLinkContents = "^"
   favicon = "favicon.ico"
 
   [params.logo]
-    url = "icon.png"
-    width = 50
-    height = 50
+    url = "via-papier-logo.png"
     alt = "Logo"
+
+[languages]
+  [languages.de]
+    languageName = "German"
+    contentDir = "content"
+  [languages.en]
+    languageName = "English"
+    contentDir = "content/en"
+  [languages.fr]
+    languageName = "French"
+    contentDir = "content/fr"
+  [languages.es]
+    languageName = "Spanish"
+    contentDir = "content/es"
+  [languages.nl]
+    languageName = "Dutch"
+    contentDir = "content/nl"
+  [languages.it]
+    languageName = "Italian"
+    contentDir = "content/it"
+  [languages.po]
+    languageName = "Polish"
+    contentDir = "content/po"

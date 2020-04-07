@@ -1,0 +1,206 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "ABeeZee";
+	color: #2D3748;
+	font-size: 19px;
+}
+
+a {
+	color: #2B6CB0;
+}
+
+p {
+	margin-bottom: 2em;
+}
+
+.lead {
+	display: block;
+	margin-bottom: 1em;
+}
+
+.text-highlight {
+	font-size: 1.1em;
+}
+
+.text-center {
+	text-align: center;
+}
+
+button {
+	padding: 0;
+}
+
+.icon-steps {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 4em 0;
+	gap: 0.3em;
+}
+
+button:hover {
+	color: #333;
+}
+
+.header {
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+	align-items: center;
+	justify-content: space-between;
+	padding: 4em 0;
+}
+
+.social-links a {
+	display: inline-flex;
+	align-items: center;
+	color: #2D3748;
+}
+
+.header a:hover {
+	color: #1A202C;
+}
+
+.main-logo {
+	max-width: 100%;
+}
+
+.social-links {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: space-around;
+	font-size: 0.9em;
+}
+
+.social-links .fab,
+.social-links .fas {
+	margin-right: 0.3em;
+}
+
+.button-black {
+	background-color: #1A202C;
+	border-color: #1A202C;
+}
+
+.button-black.button-clear, .button-black.button-outline {
+	background-color: transparent;
+	color: #1A202C;
+}
+
+.button-black.button-clear {
+	border-color: transparent;
+}
+
+.button-large {
+	font-size: 1em;
+	height: unset;
+	line-height: 2.5em;
+	padding: 0 1em;
+	white-space: normal;
+}
+
+.main-carousel {
+	margin-bottom: 4em;
+}
+
+.main-carousel img {
+	height: 400px;
+	width: auto;
+	margin: 0 0.2em;
+	object-fit: cover;
+}
+
+.flickity-page-dots {
+	bottom: -45px;
+}
+
+.alert {
+	background: #FEFCBF;
+	color: #B7791F;
+	font-size: 0.9em;
+	padding: 0.5em 1em;
+	margin-bottom: 2em;
+	border-left: 3px solid #ECC94B;
+}
+
+.alert a {
+	color: #B7791F;
+	font-weight: bold;
+}
+
+.alert a:hover {
+	color: #975A16;
+}
+
+.avatars {
+	text-align: center;
+}
+
+.avatars img {
+	max-height: 9em;
+}
+
+.downloads {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 3em 0;
+}
+
+.downloads .button {
+	margin: 0.5em 0;
+}
+
+.copyright {
+	padding-top: 1em;
+	font-size: 0.8em;
+}
+
+@media (min-width: 576px) {
+	footer {
+		flex-direction: row;
+	}
+	footer a+a {
+		margin-left: 1em;
+	}
+	.copyright {
+		padding-top: 0;
+		margin-left: auto;
+	}
+}
+
+@media (min-width: 768px) {
+	.main {
+		margin: 0 3em;
+	}
+	.container {
+		max-width: 720px;
+	}
+}
+
+@media (min-width: 992px) {
+	.container {
+		max-width: 960px;
+	}
+	.column-left {
+		flex: 1;
+	}
+	.column-right {
+		flex: 1;
+		background-image: url('../images/via-papier-side.png');
+		background-position-x: right;
+		background-repeat: repeat-y;
+		background-size: 85%;
+	}
+}
+
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1140px;
+	}
+}
