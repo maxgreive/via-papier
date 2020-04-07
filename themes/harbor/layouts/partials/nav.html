@@ -1,0 +1,24 @@
+<nav class="header">
+  <div style="display: flex; justify-content: space-evenly; width: 100%;">
+    {{ range $.Site.Home.AllTranslations }}
+      <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
+    {{ end }}
+  </div>
+  {{ if .Site.Params.logo }}
+    <a href="{{ "" | absLangURL }}">
+    <img src="{{ .Site.BaseURL }}images/{{ .Site.Params.logo.url }}"
+          alt="{{ .Site.Params.logo.alt }}"
+          class="main-logo">
+    </a>
+  {{ end }}
+
+  <div class="social-links">
+    {{ range .Site.Params.nav }}
+      {{ if .icon }}
+        <a href="{{ .url | relLangURL }}" name="{{ .name }}"><i class="{{ .icon }}"></i>{{ .name }}</a>
+      {{ else }}
+        <a href="{{ .url | relLangURL }}" name="{{ .name }}">{{ .name }}</a>
+      {{ end }}
+    {{ end }}
+  </div>
+</nav>
