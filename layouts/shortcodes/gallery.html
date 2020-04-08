@@ -1,0 +1,9 @@
+{{ $folder := "/static/images/gallery" }}
+
+{{ $files := readDir $folder }}
+
+<div class="main-carousel">
+	{{ range $files }}
+		<img src="/images/gallery/{{ .Name }}">
+	{{ end }}
+</div>

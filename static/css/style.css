@@ -1,7 +1,6 @@
 body {
 	font-family: 'Roboto'!important;
 	color: #2D3748;
-	font-size: 19px!important;
 }
 
 a {
@@ -38,16 +37,18 @@ button {
 }
 
 button:hover {
-	color: #333;
+	color: white;
 }
 
 .header {
 	display: flex;
 	flex-direction: column;
-	gap: 1em;
-	align-items: center;
 	justify-content: space-between;
 	padding: 4em 0;
+}
+
+.header .dropdown {
+	margin-left: auto;
 }
 
 .social-links a {
@@ -61,7 +62,16 @@ button:hover {
 }
 
 .main-logo {
-	max-width: 100%;
+	display: flex;
+	align-items: center;
+}
+.main-logo img {
+	max-width: 100px;
+}
+
+.main-title {
+	font-size: 3em;
+	font-weight: 600;
 }
 
 .social-links {
@@ -100,7 +110,7 @@ button:hover {
 }
 
 .main-carousel {
-	margin-bottom: 4em;
+	margin: 3em 0 5em;
 }
 
 .main-carousel img {
@@ -233,6 +243,10 @@ button:hover {
 	background-image: url(../images/flags/it.svg);
 }
 
+.dropdown {
+	position: relative;
+}
+
 .dropdown-menu {
 	display: none;
 	position: absolute;
@@ -246,6 +260,7 @@ button:hover {
 
 .dropdown-menu a {
 	color: #4A5568;
+	white-space: nowrap;
 }
 
 .dropdown-menu.show {

@@ -25,3 +25,14 @@ window.addEventListener('keydown', event => {
 		closeDropdowns();
 	}
 });
+
+
+const gallery = document.querySelector('.main-carousel');
+const flkty = new Flickity(gallery, {
+  autoPlay: true,
+  fullscreen: true,
+  contain: true,
+  wrapAround: true,
+  imagesLoaded: true,
+  percentPosition: false,
+});

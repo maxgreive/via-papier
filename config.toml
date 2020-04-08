@@ -40,12 +40,12 @@ footnoteReturnLinkContents = "^"
   favicon = "favicon.ico"
 
   [params.logo]
-    url = "via-papier-logo.png"
+    url = "logo.png"
     alt = "Logo"
 
 [languages]
   [languages.de]
-    languageName = "German"
+    languageName = "Deutsch"
     weight = "1"
     contentDir = "content"
       [languages.de.params]
@@ -57,31 +57,31 @@ footnoteReturnLinkContents = "^"
       [languages.en.params]
         slug = "english"
   [languages.fr]
-    languageName = "French"
+    languageName = "Français"
     weight = "3"
     contentDir = "content/fr"
       [languages.fr.params]
         slug = "french"
   [languages.es]
-    languageName = "Spanish"
+    languageName = "Español"
     weight = "4"
     contentDir = "content/es"
       [languages.es.params]
         slug = "spanish"
   [languages.nl]
-    languageName = "Dutch"
+    languageName = "Nederlands"
     weight = "5"
     contentDir = "content/nl"
       [languages.nl.params]
         slug = "dutch"
   [languages.it]
-    languageName = "Italian"
+    languageName = "Italiano"
     weight = "6"
     contentDir = "content/it"
       [languages.it.params]
         slug = "italian"
   [languages.pl]
-    languageName = "Polish"
+    languageName = "Polski"
     weight = "7"
     contentDir = "content/pl"
       [languages.pl.params]
