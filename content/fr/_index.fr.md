@@ -17,3 +17,7 @@ Vous avez une imprimante, du ruban adhésif et vos crayons de couleur? Alors, co
 Comme vous pouvez le voir, il reste beaucoup d'espace à gauche et à droite des rues. Peut-être que vous peignez la maison dans laquelle vous vivez ou celle de votre meilleur ami. Dans le zoo, les animaux sont toujours portés disparus et quel genre d'affiche est probablement collé sur le pilier publicitaire et qu'est-ce qui est construit sur le chantier? Il y a déjà quelques villes, d'autres s'ajouteront dans les prochaines semaines et de plus en plus de routes en papier.
 
 Amusez-vous bien, Robbers et Busso
+
+{{<downloads>}}
+
+{{<team-avatar>}}

@@ -17,3 +17,7 @@ Masz drukarkę, trochę taśmy i swoje kolorowe ołówki? Więc zaczynaj!
 Jak widać, po lewej i prawej stronie ulic jest jeszcze sporo miejsca. Może malujesz dom, w którym mieszkasz, albo dom swojego najlepszego przyjaciela. W zoo nadal brakuje zwierząt i jaki plakat prawdopodobnie utknął na filarze reklamowym i co jest budowane na budowie? Jest już kilka miast, w ciągu najbliższych kilku tygodni dodane zostaną kolejne, a także coraz więcej papierowych dróg.
 
 Bawcie się dobrze, Robbers i Busso
+
+{{<downloads>}}
+
+{{<team-avatar>}}

@@ -36,3 +36,15 @@ const flkty = new Flickity(gallery, {
   imagesLoaded: true,
   percentPosition: false,
 });
+
+function handleScrollerClick(event) {
+	event.preventDefault();
+	document.querySelector(event.target.dataset.target).scrollIntoView({ behavior: 'smooth' });
+}
+
+ const selScrollers = document.querySelectorAll('.scroller');
+ selScrollers.forEach(scroller => {
+	scroller.addEventListener('click', function(event) {
+	  handleScrollerClick(event);
+	});
+ });

@@ -1,0 +1,10 @@
+{{ $folder := "/static/images/steps" }}
+
+{{ $files := readDir $folder }}
+
+
+<div class="icon-steps">
+	{{ range $files }}
+		<img src="/images/steps/{{ .Name }}">
+	{{ end }}
+</div>

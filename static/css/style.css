@@ -144,6 +144,7 @@ button:hover {
 
 .avatars {
 	text-align: center;
+	margin: 5em 0;
 }
 
 .avatars img {
@@ -279,3 +280,32 @@ button:hover {
 .dropdown-item .flag {
 	margin-right: .5em;
 }
+
+footer {
+	display: flex;
+	flex-direction: column;
+	padding: 3em;
+	background: #2D3748;
+	color: #F7FAFC;
+}
+
+footer a {
+	color: #F7FAFC;
+}
+
+footer a:hover {
+	color: #FFF;
+}
+
+@media (min-width: 576px) {
+	footer {
+		flex-direction: row;
+	}
+	footer a+a {
+		margin-left: 1em;
+	}
+	.copyright {
+		padding-top: 0;
+		margin-left: auto;
+	}
+ }

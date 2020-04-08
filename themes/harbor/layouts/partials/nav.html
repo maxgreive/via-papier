@@ -20,11 +20,7 @@
 
   <div class="social-links">
     {{ range .Site.Params.nav }}
-      {{ if .icon }}
-        <a href="{{ .url | relLangURL }}" name="{{ .name }}"><i class="{{ .icon }}"></i>{{ .name }}</a>
-      {{ else }}
-        <a href="{{ .url | relLangURL }}" name="{{ .name }}">{{ .name }}</a>
-      {{ end }}
+      <a href="{{ .url | relLangURL }}" name="{{ .name }}"{{ if .class }} class="{{ .class }}"{{ end }}{{ if .target }} data-target="{{ .target }}"{{ end }}>{{ if .icon }}<i class="{{ .icon }}"></i> {{ end }}{{ .name }}</a>
     {{ end }}
   </div>
 </nav>

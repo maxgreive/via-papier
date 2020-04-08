@@ -17,3 +17,7 @@ Avete una stampante, del nastro adesivo e le matite colorate? Allora cominciate!
 Come potete vedere, c'è ancora molto spazio a sinistra e a destra delle strade. Forse stai dipingendo la casa in cui vivi o la casa del tuo migliore amico. Nello zoo mancano ancora gli animali e che tipo di poster è probabilmente attaccato alla colonna pubblicitaria e cosa si sta costruendo in cantiere? Ci sono già alcune città, altre si aggiungeranno nelle prossime settimane e sempre più strade di carta.
 
 Divertitevi a giocare, Robbers e Busso
+
+{{<downloads>}}
+
+{{<team-avatar>}}

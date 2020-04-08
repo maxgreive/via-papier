@@ -17,3 +17,7 @@ Do you have a printer, some tape and your coloured pencils? Then get started!
 As you can see, there is still a lot of space left and right of the streets. Maybe you are painting the house you live in or the house of your best friend. In the zoo the animals are still missing and what kind of poster is probably stuck on the advertising pillar and what is being built on the construction site? There are already a few cities, more will be added in the next few weeks and more and more paper roads.
 
 Have fun playing, Robbers and Busso
+
+{{<downloads>}}
+
+{{<team-avatar>}}

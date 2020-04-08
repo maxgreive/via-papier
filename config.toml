@@ -32,7 +32,9 @@ footnoteReturnLinkContents = "^"
   identifier = "download"
   name = "Download"
   icon = "fas fa-download"
-  url = "#download"
+  url = "#"
+  class = "scroller"
+  target = "#btn-download"
   weight = 3
 
 [params]

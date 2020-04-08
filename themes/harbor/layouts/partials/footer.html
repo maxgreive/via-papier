@@ -1,21 +1,5 @@
 <footer>
-  <div class="container">
-    <p class="credits copyright">
-      <a href="{{ "about" | absLangURL }}">{{ .Site.Author.name }}</a>
-      &nbsp;&copy;
-      {{ now.Format "2006" }}
-
-      {{ if .Site.Title }}
-        &nbsp;/&nbsp;
-        <a href="{{ "" | absLangURL }}">{{ .Site.Title }}</a>
-      {{ end }}
-
-      &nbsp;&ndash;&nbsp;
-      <i class="fas fa-sun" id="dark-mode-toggle"></i>
-
-      <p class="credits theme-by">
-        Powered by <a href="https://gohugo.io">Hugo</a>&nbsp;Theme: <a href="https://github.com/matsuyoshi30/harbor">Harbor</a>
-      </p>
-    </p>
-  </div>
+    <a href="http://www.jensrobbers.de/standardseiten/impressum/">Impressum</a>
+    <a href="http://www.jensrobbers.de/standardseiten/datenschutz/">Datenschutz</a>
+    <span class="copyright">&copy; {{ .Site.Title }} {{ now.Format "2006" }}</span>
 </footer>

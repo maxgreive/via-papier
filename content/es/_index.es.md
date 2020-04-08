@@ -17,3 +17,7 @@ El hecho de que tengamos que quedarnos en casa no significa que ya no estemos ce
 Como pueden ver, todavía hay mucho espacio a la izquierda y a la derecha de las calles. Tal vez estás pintando la casa en la que vives o la casa de tu mejor amigo. En el zoológico los animales siguen desaparecidos y ¿qué tipo de cartel está probablemente pegado en el pilar de publicidad y qué se está construyendo en la obra? Ya hay algunas ciudades, se añadirán más en las próximas semanas y más y más caminos de papel.
 
 Diviértete jugando, Robbers y Busso
+
+{{<downloads>}}
+
+{{<team-avatar>}}

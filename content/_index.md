@@ -14,6 +14,13 @@ Habt Ihr einen Drucker, etwas Klebeband und Eure bunten Stifte? Dann legt los!
 
 **Viva la Via – viva Papier!**
 
+{{<steps>}}
+
+
 Wie Ihr seht, ist links und rechts von den Straßen noch viel Platz. Vielleicht malt Ihr das Haus, in dem Ihr wohnt, oder das Eurer besten Freundin und Eures besten Freundes. Im Zoo fehlen noch die Tiere und was für ein Plakat klebt wohl auf der Litfaßsäule und was wird auf der Baustelle gebaut? Ein paar Städte gibt es schon, in den nächsten Wochen kommen weitere dazu und immer noch mehr Straßen aus Papier.
 
 Habt viel Spaß beim Spielen, Robbers und Busso
+
+{{<downloads>}}
+
+{{<team-avatar>}}

@@ -17,3 +17,7 @@ Heb je een printer, wat tape en je kleurpotloden? Ga dan aan de slag!
 Zoals u kunt zien, is er nog veel ruimte links en rechts van de straat. Misschien schilder je het huis waarin je woont of het huis van je beste vriend. In de dierentuin ontbreken de dieren nog en wat voor soort poster is er waarschijnlijk op de reclamezuil geplakt en wat wordt er op de bouwplaats gebouwd? Er zijn al een paar steden, er komen er de komende weken nog meer bij en er komen steeds meer papieren wegen bij.
 
 Veel plezier met spelen, Robbers en Busso
+
+{{<downloads>}}
+
+{{<team-avatar>}}
