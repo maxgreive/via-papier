@@ -1,14 +1,17 @@
 <nav class="header">
-  <div style="display: flex; justify-content: space-evenly; width: 100%;">
-    {{ range $.Site.Home.AllTranslations }}
-      <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
-    {{ end }}
+  <div class="dropdown" style="margin-left: auto;">
+    <button class="button-language button-black" data-toggle="dropdown"><i class="flag flag-{{ .Language.Params.slug }}"></i>{{ .Language.LanguageName }}</button>
+    <div class="dropdown-menu">
+      {{ range .Translations }}
+        <a href="{{ .Permalink }}" class="dropdown-item {{ if eq $.Site.Language.Lang .Language.Lang }} active{{ end }}"><i class="flag flag-{{ .Language.Params.slug }}"></i>{{ .Language.LanguageName }}</a>
+      {{ end }}
+    </div>
   </div>
   {{ if .Site.Params.logo }}
     <a href="{{ "" | absLangURL }}">
     <img src="{{ .Site.BaseURL }}images/{{ .Site.Params.logo.url }}"
-          alt="{{ .Site.Params.logo.alt }}"
-          class="main-logo">
+      alt="{{ .Site.Params.logo.alt }}"
+      class="main-logo">
     </a>
   {{ end }}
 

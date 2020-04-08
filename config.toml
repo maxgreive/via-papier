@@ -12,12 +12,12 @@ footnoteReturnLinkContents = "^"
   name = "Via Papier"
 
 [outputs]
-    section = ["JSON", "HTML"]
+  section = ["JSON", "HTML"]
 
 [[params.nav]]
   identifier = "facebook"
   name = "fb.me/viapapier"
-  icon = "fab fa-facebook"
+  icon = "fab fa-facebook-square"
   url = "https://facebook.com/viapapier"
   weight = 3
 
@@ -46,22 +46,43 @@ footnoteReturnLinkContents = "^"
 [languages]
   [languages.de]
     languageName = "German"
+    weight = "1"
     contentDir = "content"
+      [languages.de.params]
+        slug = "german"
   [languages.en]
     languageName = "English"
+    weight = "2"
     contentDir = "content/en"
+      [languages.en.params]
+        slug = "english"
   [languages.fr]
     languageName = "French"
+    weight = "3"
     contentDir = "content/fr"
+      [languages.fr.params]
+        slug = "french"
   [languages.es]
     languageName = "Spanish"
+    weight = "4"
     contentDir = "content/es"
+      [languages.es.params]
+        slug = "spanish"
   [languages.nl]
     languageName = "Dutch"
+    weight = "5"
     contentDir = "content/nl"
+      [languages.nl.params]
+        slug = "dutch"
   [languages.it]
     languageName = "Italian"
+    weight = "6"
     contentDir = "content/it"
-  [languages.po]
+      [languages.it.params]
+        slug = "italian"
+  [languages.pl]
     languageName = "Polish"
-    contentDir = "content/po"
+    weight = "7"
+    contentDir = "content/pl"
+      [languages.pl.params]
+        slug = "polish"
