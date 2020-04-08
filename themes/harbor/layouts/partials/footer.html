@@ -1,7 +1,7 @@
 <footer>
   <div class="container">
     <p class="credits copyright">
-      <a href="{{ .Site.BaseURL }}about">{{ .Site.Author.name }}</a>
+      <a href="{{ "about" | absLangURL }}">{{ .Site.Author.name }}</a>
       &nbsp;&copy;
       {{ now.Format "2006" }}
 
