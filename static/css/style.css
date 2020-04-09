@@ -43,13 +43,11 @@ button:hover {
 .header {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
 	padding: 4em 0;
 }
 
 .header .dropdown {
 	margin-left: auto;
-	flex: 0;
 }
 
 .social-links a {
@@ -68,13 +66,7 @@ button:hover {
 }
 
 .main-logo {
-	display: flex;
-	align-items: center;
-}
-
-.main-logo img {
-	flex: 1 1 90%;
-	margin-right: 1em;
+	margin: 1em 0;
 }
 
 .logo-language {
@@ -265,6 +257,7 @@ button:hover {
 	border-radius: 0.3em;
 	border: 1px solid #E2E8F0;
 	min-width: 8em;
+	margin-top: 1rem;
 	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
 }
 

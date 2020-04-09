@@ -1,21 +1,19 @@
 <nav class="header">
-  <div class="logo-language">
-    {{ if .Site.Params.logo }}
-      <a href="{{ "" | absLangURL }}" class="main-logo">
-        <img src="{{ .Site.BaseURL }}images/{{ .Site.Params.logo.url }}"
-          alt="{{ .Site.Params.logo.alt }}">
-      </a>
-    {{ end }}
-
-    <div class="dropdown">
-      <button class="button-language button-black" data-toggle="dropdown"><i class="flag flag-{{ .Language.Params.slug }}"></i>{{ .Language.LanguageName }}</button>
-      <div class="dropdown-menu">
-        {{ range .Translations }}
-          <a href="{{ .Permalink }}" class="dropdown-item {{ if eq $.Site.Language.Lang .Language.Lang }} active{{ end }}"><i class="flag flag-{{ .Language.Params.slug }}"></i>{{ .Language.LanguageName }}</a>
-        {{ end }}
-      </div>
+  <div class="dropdown">
+    <button class="button-language button-black" data-toggle="dropdown"><i class="flag flag-{{ .Language.Params.slug }}"></i>{{ .Language.LanguageName }}</button>
+    <div class="dropdown-menu">
+      {{ range .Translations }}
+        <a href="{{ .Permalink }}" class="dropdown-item {{ if eq $.Site.Language.Lang .Language.Lang }} active{{ end }}"><i class="flag flag-{{ .Language.Params.slug }}"></i>{{ .Language.LanguageName }}</a>
+      {{ end }}
     </div>
   </div>
+
+  {{ if .Site.Params.logo }}
+    <a href="{{ "" | absLangURL }}" class="main-logo">
+      <img src="{{ .Site.BaseURL }}images/{{ .Site.Params.logo.url }}"
+        alt="{{ .Site.Params.logo.alt }}">
+    </a>
+  {{ end }}
 
   <div class="social-links">
     {{ range .Site.Params.nav }}
