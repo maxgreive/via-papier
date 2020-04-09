@@ -1,10 +1,9 @@
 <nav class="header">
-  <div style="display: flex; align-items: center;">
+  <div class="logo-language">
     {{ if .Site.Params.logo }}
       <a href="{{ "" | absLangURL }}" class="main-logo">
         <img src="{{ .Site.BaseURL }}images/{{ .Site.Params.logo.url }}"
           alt="{{ .Site.Params.logo.alt }}">
-        <span class="main-title">{{ .Site.Title }}</span>
       </a>
     {{ end }}
 

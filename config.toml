@@ -42,7 +42,7 @@ footnoteReturnLinkContents = "^"
   favicon = "favicon.ico"
 
   [params.logo]
-    url = "logo.png"
+    url = "via-papier-logo.png"
     alt = "Logo"
 
 [languages]
