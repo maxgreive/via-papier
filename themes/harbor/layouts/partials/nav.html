@@ -17,7 +17,7 @@
 
   <div class="social-links">
     {{ range .Site.Params.nav }}
-      <a href="{{ .url | relLangURL }}" name="{{ .name }}"{{ if .class }} class="{{ .class }}"{{ end }}{{ if .target }} data-target="{{ .target }}"{{ end }}>{{ if .icon }}<i class="{{ .icon }}"></i> {{ end }}{{ .name }}</a>
+      <a href="{{ .url | relLangURL }}" name="{{ .name }}"{{ if .class }} class="{{ .class }}"{{ end }}{{ if .target }} data-target="{{ .target }}"{{ end }}{{ if .newWindow }}target="_blank" rel="noopener"{{ end }}>{{ if .icon }}<i class="{{ .icon }}"></i> {{ end }}{{ .name }}</a>
     {{ end }}
   </div>
 </nav>
