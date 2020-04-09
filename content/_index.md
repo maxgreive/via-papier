@@ -1,5 +1,6 @@
 +++
 author = "Hugo Authors"
+title = "Startseite"
 +++
 
 Liebe Kinder,
