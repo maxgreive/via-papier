@@ -1,5 +1,6 @@
 +++
 author = "Hugo Authors"
+title = "Inicio"
 +++
 
 Queridos niños,

@@ -1,5 +1,6 @@
 +++
 author = "Hugo Authors"
+title = "Strona główna"
 +++
 
 Drogie dzieci,

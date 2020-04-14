@@ -1,5 +1,6 @@
 +++
 author = "Hugo Authors"
+title = "Page d'accueil"
 +++
 
 Chers enfants,
