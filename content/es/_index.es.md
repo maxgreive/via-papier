@@ -9,13 +9,13 @@ todos estamos mucho más en casa ahora mismo de lo que nos gustaría estar. No v
 
 {{<gallery>}}
 
-El hecho de que tengamos que quedarnos en casa no significa que ya no estemos cerca de la gente que vive en nuestra ciudad, en nuestro país y en toda Europa. Desde el papel se pueden construir los caminos que nos conectan, que van de Berlín a Ámsterdam y de Varsovia a Roma. Nos recuerdan que dondequiera que vayamos hay gente sentada en sus salas de estar, soñando con otros lugares.
+El hecho de que tengamos que quedarnos en casa no significa que ya no estemos cerca de la gente que vive en nuestra ciudad, en nuestro país y en toda Europa. Desde el papel se pueden construir los caminos que nos conectan, que van de Berlín a Ámsterdam y de Varsovia a Roma. Nos recuerdan que dondequiera que vayamos hay gente sentada en sus salones, soñando con otros lugares.
 
 ¿Tienes una impresora, cinta adhesiva y tus lápices de colores? ¡Entonces empieza!
 
-**Viva la Via - viva paper!**
+**Viva la Via - viva el papel!**
 
-Como pueden ver, todavía hay mucho espacio a la izquierda y a la derecha de las calles. Tal vez estás pintando la casa en la que vives o la casa de tu mejor amigo. En el zoológico los animales siguen desaparecidos y ¿qué tipo de cartel está probablemente pegado en el pilar de publicidad y qué se está construyendo en la obra? Ya hay algunas ciudades, se añadirán más en las próximas semanas y más y más caminos de papel.
+Como puedes ver, todavía hay mucho espacio a la izquierda y a la derecha de las calles. Tal vez estás diseñando la casa en la que vives, o la casa de tu mejor amigo. En el zoológico los animales siguen desaparecidos y ¿qué tipo de cartel está pegado en el pilar de publicidad y qué se está construyendo en la obra? Ya hay algunas ciudades, se añadirán más en las próximas semanas y ya habrá más y más caminos de papel.
 
 Diviértete jugando, Robbers y Busso
 
