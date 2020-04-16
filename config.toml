@@ -46,6 +46,8 @@ footnoteReturnLinkContents = "^"
   [params.logo]
     url = "via-papier-logo.png"
     alt = "Logo"
+  [params.ogImage]
+    url = "images/og-via-papier.png"
 
 [languages]
   [languages.de]
