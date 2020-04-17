@@ -28,26 +28,28 @@ window.addEventListener('keydown', event => {
 
 
 const gallery = document.querySelector('.main-carousel');
-const flkty = new Flickity(gallery, {
-  autoPlay: true,
-  fullscreen: true,
-  contain: true,
-  wrapAround: true,
-  imagesLoaded: true,
-  percentPosition: false,
-});
+if (gallery) {
+	const flkty = new Flickity(gallery, {
+	  autoPlay: true,
+	  fullscreen: true,
+	  contain: true,
+	  wrapAround: true,
+	  imagesLoaded: true,
+	  percentPosition: false,
+	});
+}
 
 function handleScrollerClick(event) {
 	event.preventDefault();
 	document.querySelector(event.target.dataset.target).scrollIntoView({ behavior: 'smooth' });
 }
 
- const selScrollers = document.querySelectorAll('.scroller');
- selScrollers.forEach(scroller => {
-	scroller.addEventListener('click', function(event) {
-	  handleScrollerClick(event);
-	});
- });
+const selScrollers = document.querySelectorAll('.scroller');
+selScrollers.forEach(scroller => {
+scroller.addEventListener('click', function(event) {
+	handleScrollerClick(event);
+});
+});
 
 document.querySelectorAll('.alert').forEach(info => {
 	const start = new Date(info.dataset.start)
