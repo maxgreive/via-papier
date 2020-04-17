@@ -4,6 +4,7 @@ title = "Via Papier"
 theme = "harbor"
 author = "Max Greive"
 paginate = 3
+googleAnalytics = "UA-46313065-4"
 DefaultContentLanguage = "de"
 enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"

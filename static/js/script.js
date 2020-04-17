@@ -46,9 +46,9 @@ function handleScrollerClick(event) {
 
 const selScrollers = document.querySelectorAll('.scroller');
 selScrollers.forEach(scroller => {
-scroller.addEventListener('click', function(event) {
-	handleScrollerClick(event);
-});
+	scroller.addEventListener('click', function(event) {
+		handleScrollerClick(event);
+	});
 });
 
 document.querySelectorAll('.alert').forEach(info => {
