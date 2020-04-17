@@ -3,6 +3,8 @@ author = "Hugo Authors"
 title = "Startseite"
 +++
 
+{{< alert start="2020-04-6" end="2020-04-15" text="Osterspaziergang auf der Via Papier: Schickt uns Bilder von Euren Straßen bis einschließlich Dienstag und wir verlosen 3 Heimatpiste-Spielteppiche!" >}}
+
 Liebe Kinder,
 
 wir alle sind gerade viel mehr zu Hause, als uns vielleicht lieb ist. Ihr geht nicht in die Kita, nicht in die Schule und am Nachmittag wäret ihr sicher gerne auf dem Spielplatz, würdet Fahrrad fahren oder Eure Großeltern sehen, anstatt nur mit ihnen zu telefonieren. Wenn wir die Menschen nicht besuchen können, die wir vermissen, können wir etwas tun: Wir können Straßen bauen, auf denen wir spielen, dass wir zu all denen fahren, die uns fehlen. Und wenn wir schon dabei sind, können wir auch einen Ausflug machen zu einem Ort, an dem wir im letzten Sommer waren, oder vielleicht sogar in Länder, in denen wir noch nie gewesen sind.

@@ -316,4 +316,8 @@ footer a:hover {
 		padding-top: 0;
 		margin-left: auto;
 	}
- }
+}
+
+.hidden {
+	display: none;
+}

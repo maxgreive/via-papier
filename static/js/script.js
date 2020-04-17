@@ -48,3 +48,13 @@ function handleScrollerClick(event) {
 	  handleScrollerClick(event);
 	});
  });
+
+document.querySelectorAll('.alert').forEach(info => {
+	const start = new Date(info.dataset.start)
+	const end = new Date(info.dataset.end)
+	const now = new Date()
+
+	if (start < now && now < end) {
+		info.classList.remove('hidden')
+	}
+})
