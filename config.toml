@@ -8,6 +8,7 @@ googleAnalytics = "UA-46313065-4"
 DefaultContentLanguage = "de"
 enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
+enableRobotsTXT = true
 
 [Author]
   name = "Via Papier"

@@ -3,7 +3,7 @@ author = "Hugo Authors"
 title = "Startseite"
 +++
 
-{{< alert start="2020-04-6" end="2020-04-15" text="Osterspaziergang auf der Via Papier: Schickt uns Bilder von Euren Straßen bis einschließlich Dienstag und wir verlosen 3 Heimatpiste-Spielteppiche!" >}}
+{{< alert start="2020-04-21" end="2020-05-01" text="“papier” ist Französisch und heißt Papier. Verrückt, oder? Paris und Berlin verbindet die Via Papier und die gibt es jetzt in vielen europäischen Sprachen. Il est ouf!" >}}
 
 Liebe Kinder,
 

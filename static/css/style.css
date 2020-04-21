@@ -133,12 +133,12 @@ button:hover {
 }
 
 .alert {
-	background: #FEFCBF;
-	color: #B7791F;
+	background: #EBF8FF;
+	color: #2C5282;
 	font-size: 0.9em;
 	padding: 0.5em 1em;
 	margin-bottom: 2em;
-	border-left: 3px solid #ECC94B;
+	border-left: 3px solid #3182CE;
 }
 
 .alert a {
