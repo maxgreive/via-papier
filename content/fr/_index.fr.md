@@ -3,6 +3,8 @@ author = "Hugo Authors"
 title = "Page d'accueil"
 +++
 
+{{< alert start="2020-04-21" end="2020-05-01" text="“Papier” est un mot allemand qui signifie papier. Il est ouf! Paris at Berlin sont reliés par la Via Papier, qui est maintenant disponible dans de nombreuses langues européennes. Verrückt, oder?" >}}
+
 Chers enfants,
 
 nous sommes tous beaucoup plus chez nous en ce moment que nous le souhaiterions. Tu ne vas pas à la garderie, tu ne vas pas à l'école et l'après-midi, tu aimerais certainement être au terrain de jeu, faire du vélo ou voir tes grands-parents au lieu de simplement leur parler au téléphone. Si nous ne pouvons pas rendre visite aux personnes qui nous manquent, nous pouvons faire autre chose: Nous pouvons construire des routes pour pouvoir jouer, pour pouvoir aller voir tous les gens qui nous manquent. Et pendant que nous y sommes, nous pouvons aussi faire un voyage dans un endroit où nous étions l'été dernier, ou peut-être même dans des pays où nous ne sommes jamais allés auparavant.
