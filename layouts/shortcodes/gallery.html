@@ -4,6 +4,8 @@
 
 <div class="main-carousel">
 	{{ range $files }}
-		<img src="/images/gallery/{{ .Name }}" alt="Gallery Image">
+		{{ if in .Name ".jpg" }}
+			<img src="/images/gallery/{{ .Name }}" alt="Gallery Image">
+		{{ end }}
 	{{ end }}
 </div>
