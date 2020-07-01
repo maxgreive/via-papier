@@ -6,6 +6,8 @@
 	other = "All Cities"
 [downloadStreets]
 	other = "All Streets"
+[downloadArtists]
+	other = "Artist Edition"
 [jensBussoText]
 	other = "Jens en Jojo zijn Robbers & Busso. Ze maken dingen goed en soms doen ze dat ook."
 [jensBussoLink]
