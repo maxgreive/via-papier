@@ -3,6 +3,8 @@ author = "Hugo Authors"
 title = "Home"
 +++
 
+{{< alert start="2020-12-18" end="2021-01-20" text="Mirjana Jesic has designed Belgrad for the latest artist edition of Via Papier. The ‚White City‘ is no longer a blank spot on our map. Thank you Mira!" >}}
+
 Dear children,
 
 we are all much more at home right now than we would perhaps like to be. You don't go to daycare, you don't go to school and in the afternoon you would certainly like to be at the playground, ride your bike or see your grandparents instead of just talking to them on the phone. If we cannot visit the people we miss, we can do something else: We can build roads so we can play, so we can go to all the people we miss. And while we're at it, we can also take a trip to a place where we were last summer, or maybe even to countries we've never been to before.
