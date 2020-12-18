@@ -3,7 +3,7 @@ author = "Hugo Authors"
 title = "Startseite"
 +++
 
-{{< alert start="2020-04-21" end="2020-05-01" text="“papier” ist Französisch und heißt Papier. Verrückt, oder? Paris und Berlin verbindet die Via Papier und die gibt es jetzt in vielen europäischen Sprachen. Il est ouf!" >}}
+{{< alert start="2020-12-18" end="2021-01-20" text="Mirjana Jesic hat Belgrad für die aktuelle Via Papier Artist Edition designt. Die weiße Stadt ist nun kein weißer Fleck mehr auf der Karte. Danke Mira!" >}}
 
 Liebe Kinder,
 
