@@ -1,4 +1,4 @@
-baseURL = "https://viapapier.eu/"
+baseURL = "https://viapapier.netlify.app/"
 languageCode = "en-us"
 title = "Via Papier"
 theme = "harbor"
